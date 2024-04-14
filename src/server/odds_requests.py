@@ -7,11 +7,8 @@ import requests
 import os
 from dotenv import load_dotenv
 
-# Load the environment variables from the .env file
-load_dotenv('.env')
 
-# Read the API key from the environment variables
-api_key = os.getenv('ODDS_API_KEY')
+api_key = '96e0d8cee21660539bf27bc975f9ff26'
 
 HOST = "https://api.the-odds-api.com"
 
